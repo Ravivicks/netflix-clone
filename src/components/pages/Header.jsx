@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import LenguageButton from "./LenguageButton";
 import SignupBox from "./SignupBox";
+import { Link } from 'react-router-dom';
 
 const Heading = styled(Typography)(({ theme }) => ({
   fontSize: 60,
@@ -62,7 +63,7 @@ const Header = () => {
             size="samll"
             style={{ backgroundColor: "#e50914", textTransform: "none", height: 38 }}
           >
-            Sign In
+            <Link to='/login'> Sign In </Link>
           </Button>
         </Box>
       </Grid>

@@ -5,7 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  background-image: linear-gradient(
+  to top,
+  rgba(0, 0, 0, 0) 1%,
+  rgba(0, 0, 0, 0) 9%,
+  rgba(0, 0, 0, 0.85) 100%
+),url("https://assets.nflxext.com/ffe/siteui/vlv3/0f07b807-7be1-457d-be88-eb9153d5d4e9/8db04df8-caaf-4f19-8e51-9309664068b2/IN-en-20220815-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 
 }
 
